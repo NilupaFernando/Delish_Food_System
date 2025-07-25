@@ -63,6 +63,13 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
+.arrow-icon {
+  width: 10px;
+  height: 10px;
+  object-fit: contain;
+  margin-top: 1px;
+}
+
 
 .book-btn:hover {
   background: #ff4500;
@@ -116,8 +123,8 @@ body {
 }
 
 .reserve-label {
-  background-color: #e74c3c; /* red background */
-  color: white;              /* white text */
+  background-color: #e74c3c; 
+  color: white;              
   border: none;
   padding: 8px 16px;
   font-size: 14px;
@@ -132,7 +139,7 @@ body {
 .category {
   text-align: center;
   padding: 60px 40px;
-  background-color: #fff;
+  background-color: #ffffff6b;
 }
 
 .category h2 {
@@ -191,7 +198,7 @@ body {
 
 .welcome-container {
   display: flex;
-  max-width: 1100px;
+  max-width: 5000px;
   gap: 40px;
   align-items: center;
 }
@@ -337,7 +344,10 @@ body {
   color: #e74c3c;
   margin: 0;
 }
-
+.stars{
+  font-size: 15px;
+  color: red;
+}
 
 /* Stats Section */
 .stats-section {
@@ -491,7 +501,7 @@ h2, h3 {
 }
 
 .testimonial-card::after {
-    content: '"'; /* Add quotation marks as decorative element */
+    content: '"'; 
     position: absolute;
     bottom: 10px;
     right: 20px;
@@ -786,4 +796,18 @@ h2, h3 {
   font-size: 20px;
   font-weight: 600;
   color: white;
+}
+
+.nil{
+  color: red;
+  font-weight: bold;
+}
+
+.reserve{
+  color: white;
+  border-color: red;
+}
+.read-link{
+  color: red;
+  text-decoration: none;
 }

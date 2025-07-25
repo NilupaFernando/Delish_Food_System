@@ -64,6 +64,13 @@ body {
   cursor: pointer;
 }
 
+.arrow-icon {
+  width: 10px;
+  height: 10px;
+  object-fit: contain;
+  margin-top: 1px;
+}
+
 .book-btn:hover {
   background: #ff4500;
   color: #000;

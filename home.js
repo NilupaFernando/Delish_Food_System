@@ -1,9 +1,4 @@
-document.querySelectorAll('.dropdown > a').forEach(item => {
-  item.addEventListener('click', (e) => {
-    e.preventDefault();
-    alert('Dropdown clicked (add content)');
-  });
-});
+
 
 const filterButtons = document.querySelectorAll('.filter-btn');
 

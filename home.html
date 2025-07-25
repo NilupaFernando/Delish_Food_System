@@ -31,11 +31,11 @@
       <span class="brand">DELISH</span>
     </div>
     <ul class="nav-links">
-    <li><a href="home.html">HOME</a></li>
-      <li ><a href="foodmenupage.html">PAGES ▾</a></li>
-      <li ><a href="gallerypage.html">PAGES ▾</a></li>
-      <li ><a href="shoppage.html">SHOP ▾</a></li>
-      <li ><a href="blogdetails.html">BLOG ▾</a></li>
+      <li><a href="home.html">HOME</a></li>
+      <li class="dropdown"><a href="foodmenupage.html">PAGES <img src="photos/arrow.PNG" class="arrow-icon" alt="Arrow"></a></li>
+      <li class="dropdown"><a href="gallerypage.html">PAGES <img src="photos/arrow.PNG" class="arrow-icon" alt="Arrow"></a></li>
+      <li class="dropdown"><a href="shoppage.html">SHOP <img src="photos/arrow.PNG" class="arrow-icon" alt="Arrow"></a></li>
+      <li class="dropdown"><a href="blogdetails.html">BLOG <img src="photos/arrow.PNG" class="arrow-icon" alt="Arrow"></a></li>
       <li><a href="contact.html">CONTACT</a></li>
     </ul>
 <button class="book-btn" onclick="window.location.href='booktable.html'">BOOK A TABLE →</button>  </nav>
@@ -51,7 +51,7 @@
   <section class="welcome">
     <img src="photos/lettuce.PNG" class="decor" alt="lettuce" />
     <div class="welcome-container">
-      <div class="image-box"></div>
+      <img src="photos/Homenew1.PNG" alt="Quality Chees">
       <div class="welcome-text">
         <button class="reserve-label">MAKE RESERVATION</button>
         <h2>WELCOME TO OUR<br><strong>LUXURY RESTAURANT</strong></h2>
@@ -73,23 +73,30 @@
 
   <section class="category">
           
-    <button class="reserve-label">MAKE RESERVATION</button>
-    <h2>DISCOVER OUR CATEGORY</h2>
+    <button class="reserve-label">Our Services</button>
+    <h2>OUR RESTAURANT SERVICE</h2>
+    <p class="nil">|</p>
+    <p class="nil">....</p>
     <div class="category-grid">
       <div class="category-card">
         <img src="photos/about7.PNG" alt="Quality Chees">
-        <h3>QUALITY CHEES</h3>
-        <p>Enjoy our aged cheese and rich flavor meals</p>
+        <h3>Wedding Service</h3>
+        <p>Assertively myocardinate robust e-tailers for extensible human capital. dpropriately benchmark networks.</p>
+            <button class="reserve"><a href="#" class="read-link">READ DETAILS <span>→</span></a></button>
       </div>
       <div class="category-card">
         <img src="photos/about8.PNG" alt="Crunchi French Fry">
-        <h3>CRUNCHI FRENCH FRY</h3>
-        <p>Golden crispy fries with gourmet dips</p>
+        <h3>Buffet Service</h3>
+        <p>Assertively myocardinate robust e-tailers for extensible human capital. dpropriately benchmark networks.</p>
+            <button class="reserve"><a href="#" class="read-link">READ DETAILS <span>→</span></a></button>
+
       </div>
       <div class="category-card">
         <img src="photos/about9.PNG" alt="100% Halal Meat">
-        <h3>100% HALAL MEAT</h3>
-        <p>Juicy, healthy and certified halal meat meals</p>
+        <h3>Party Service</h3>
+        <p>Assertively myocardinate robust e-tailers for extensible human capital. dpropriately benchmark networks.</p>
+            <button class="reserve"><a href="#" class="read-link">READ DETAILS <span>→</span></a></button>
+
       </div>
     </div>
   </section>
@@ -99,7 +106,7 @@
 
   <section class="menu-section">
     <div class="menu-header">
-      <span class="menu-tag">FOOD MENU</span>
+    <button class="reserve-label">FOOD MENU</button>
       <h2>OUR DELICIOUS FOODS</h2>
       <div class="menu-filters">
         <button class="filter-btn active">All Food</button>
@@ -126,6 +133,7 @@
         <div class="menu-card">
           <img src="photos/gp5.PNG" alt="Classic Caesar Salad" />
           <div class="card-content">
+                  <div class="stars">★★★★★</div>
             <h3>Classic Caesar Salad</h3>
             <p>$15.00</p>
           </div>
@@ -133,13 +141,15 @@
         <div class="menu-card">
           <img src="photos/gp4.PNG" alt="Braised Short Ribs" />
           <div class="card-content">
+                  <div class="stars">★★★★★</div>
             <h3>Braised Short Ribs</h3>
             <p>$16.00</p>
           </div>
         </div>
         <div class="menu-card">
-          <div class="empty-card"></div>
+          <img src="photos/gp4.PNG" alt="Braised Short Ribs" />
           <div class="card-content">
+                  <div class="stars">★★★★★</div>
             <h3>Chicken Masala</h3>
             <p>$15.00</p>
           </div>
@@ -147,6 +157,7 @@
         <div class="menu-card">
           <img src="photos/gp1.PNG" alt="Chicken Alfredo Pasta" />
           <div class="card-content">
+                  <div class="stars">★★★★★</div>
             <h3>Chicken Alfredo Pasta</h3>
             <p>$15.00</p>
           </div>
@@ -154,6 +165,7 @@
         <div class="menu-card">
           <img src="photos/gp2.PNG" alt="Vegan Buddha Bowl" />
           <div class="card-content">
+                  <div class="stars">★★★★★</div>
             <h3>Vegan Buddha Bowl</h3>
             <p>$15.00</p>
           </div>
@@ -161,6 +173,7 @@
         <div class="menu-card">
           <img src="photos/gp3.PNG" alt="Chocolate Lava Cake" />
           <div class="card-content">
+                  <div class="stars">★★★★★</div>
             <h3>Chocolate Lava Cake</h3>
             <p>$15.00</p>
           </div>
@@ -212,9 +225,10 @@
   <main class="container">
         <section class="testimonials-section">
             <div class="header-container">
-                <span class="client-testimonial-tag">CLIENT TESTIMONIAL</span>
+    <button class="reserve-label">Client Testimonial</button>
                 <h2>OUR CUSTOMER FEEDBACKS</h2>
-                <div class="divider"></div>
+               <p class="nil">|</p>
+               <p class="nil">....</p>
             </div>
 
             <div class="testimonials-grid">
@@ -243,9 +257,10 @@
         <section class="reservation-section">
             <div class="reservation-form-container">
                 <div class="reservation-header">
-                    <span class="book-a-table-tag">BOOK A TABLE</span>
+    <button class="reserve-label">BOOK A TABLE</button>
                     <h3>MAKE RESERVATION</h3>
-                    <div class="divider"></div>
+                    <p class="nil">|</p>
+                     <p class="nil">....</p>         
                 </div>
                 
                 <form action="#" method="post" class="reservation-form">
@@ -308,6 +323,7 @@
   <div class="logo">
     <img src="photos/logo.PNG" alt="Delish Logo" />
     <span>DELISH</span>
+    <div></div>
   </div>
   <p>1234, Restaurant St, South City<br>New York 0124</p>
   <div class="social-icons">
